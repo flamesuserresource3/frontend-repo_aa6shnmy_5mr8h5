@@ -72,7 +72,7 @@ export default function CosmicScroll() {
         <div className="absolute inset-0 flex items-center justify-center select-none">
           <h2 className="text-[9vw] sm:text-[8vw] md:text-[6vw] font-extrabold tracking-tight leading-none">
             <span style={{ opacity: fadeWord }} className="transition-opacity" aria-hidden={showSun}>
-              Spec<tspan className="relative inline-block">
+              Spec<span className="relative inline-block">
                 <span className={"px-2 rounded-md transition-all duration-700 " + (showSun ? 'text-transparent' : 'text-white')}>u</span>
               </span>rn
             </span>
@@ -118,4 +118,3 @@ export default function CosmicScroll() {
     </section>
   );
 }
-
